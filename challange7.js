@@ -5,5 +5,7 @@ let num2 = Number(prompt("saisissez le pourcentage de réduction : "));
 if (num2 < 0 || num2 > 100 ){
     console.log("immpossible!")
 }
+else{
+    console.log(`le prix final = ${num1 - num2} DH`);
+}
 
-console.log(`le prix final = ${num1 - num2} DH`);
